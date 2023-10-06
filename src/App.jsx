@@ -51,7 +51,7 @@ function App() {
             path="/direct-messages"
             element={<DirectMessages user={loggedInUser} />}
           />
-          {/* <Route path="/channels" element={<Channels user={loggedInUser} />} /> */}
+          <Route path="/channels" element={<Channels user={loggedInUser} />} />
         </Routes>
       </main>
 
