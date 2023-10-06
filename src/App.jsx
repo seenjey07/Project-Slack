@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import WelcomePage from "./components/WelcomePage";
-import LoginPage from "./components/LoginPage";
-import SignUpPage from "./components/SignUpPage";
-import Home from "./components/Home";
-import DirectMessages from "./components/DirectMessages";
+import WelcomePage from "./Rosales-Components/WelcomePage";
+import LoginPage from "./Rosales-Components/LoginPage";
+import SignUpPage from "./Rosales-Components/SignUpPage";
+import Home from "./Rosales-Components/Home";
+import DirectMessages from "./Rosales-Components/DirectMessages";
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState(

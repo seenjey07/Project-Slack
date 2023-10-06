@@ -5,7 +5,9 @@ import Input from "./Input";
 const DirectMessages = (loggedInUser, savedUsers) => {
   return;
 
-  <div></div>;
+  <div>
+    <h1>Direct Message dito</h1>
+  </div>;
 };
 
 export default DirectMessages;
