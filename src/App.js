@@ -1,11 +1,11 @@
 
 import './App.css';
-import Channels from './Components/Channels';
+import WelcomePage from './Rosales-Components/WelcomePage'
 
 function App() {
   return (
     <>
-    <Channels />
+    <WelcomePage />
     </>
   );
 }
