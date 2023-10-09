@@ -3,11 +3,11 @@ import { Link, useNavigate } from "react-router-dom";
 import Input from "./Input";
 
 const DirectMessages = (loggedInUser, savedUsers) => {
-  return;
-
-  <div>
-    <h1>Direct Message dito</h1>
-  </div>;
+  return (
+    <>
+      <h1>Direct Message dito</h1>
+    </>
+  );
 };
 
 export default DirectMessages;

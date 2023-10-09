@@ -6,6 +6,7 @@ import LoginPage from "./Rosales-Components/LoginPage";
 import SignUpPage from "./Rosales-Components/SignUpPage";
 import Home from "./Rosales-Components/Home";
 import DirectMessages from "./Rosales-Components/DirectMessages";
+import Channels from "./Components/Channels";
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState(
@@ -31,11 +32,20 @@ function App() {
     }
   }, [loggedInUser]);
 
+  // const initialUser = {
+  //   surname,
+  //   firstName,
+  //   middleName,
+  //   username,
+  //   password,
+  //   email,
+  // };
+
   return (
     <Router>
       <header className="headerContainer"></header>
 
-      <main className="mainContainer">
+      <main className="mainContainer bg-blue-200 h-full w-full">
         <Routes>
           <Route path="/welcome" element={<WelcomePage />} />
           <Route
